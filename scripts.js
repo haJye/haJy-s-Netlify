@@ -20,6 +20,7 @@ console.log(one, two);
 console.log();
 //Ders 1
 let price = 530.90;
+price=String(price);
 let manat=price.slice(0, 3);
 let qepik=price.slice(4, 6);
 console.log(manat+" Manat "+qepik+" qəpik");
