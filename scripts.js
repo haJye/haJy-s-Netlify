@@ -22,7 +22,7 @@ console.log();
 let price = 530.90;
 price=String(price);
 let manat=price.slice(0, 3);
-let qepik=price.slice(4, 6);
+let qepik=price.slice(4, 7);
 console.log(manat+" Manat "+qepik+" qəpik");
 console.log();
 //Ders 2 
