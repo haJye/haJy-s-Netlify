@@ -19,7 +19,7 @@ two=temp;
 console.log(one, two);
 console.log();
 //Ders 1
-let price = 530.90;
+let price = 530.91;
 price=String(price);
 let manat=price.slice(0, 3);
 let qepik=price.slice(4, 6);
