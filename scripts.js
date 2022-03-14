@@ -17,3 +17,16 @@ let temp = one;
 one=two;
 two=temp;
 console.log(one, two);
+console.log();
+//Ders 1
+let price = prompt();
+let manat=price.slice(0, 3);
+let qepik=price.slice(4, 6);
+console.log(manat+" Manat "+qepik+" qəpik");
+console.log();
+//Ders 2 
+let salary = prompt();
+price=Number(salary);
+let fee = ((salary*13/100));
+salary=salary-fee;
+console.log(salary);
